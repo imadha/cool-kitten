@@ -29,6 +29,18 @@
 	display: block;
 }
 
+.offset_1 { margin-left: 7.5%; }
+.offset_2 { margin-left: 16%; }
+.offset_3 { margin-left: 24.5%; }
+.offset_4 { margin-left: 33%; }
+.offset_5 { margin-left: 41.5%; }
+.offset_6 { margin-left: 50%; }
+.offset_7 { margin-left: 58.5%; }
+.offset_8 { margin-left: 67%; }
+.offset_9 { margin-left: 75.5%; }
+.offset_10 { margin-left: 84%; }
+.offset_11 { margin-left: 92.5%; }
+
 .alpha{margin-left:0;}
 .omega{margin-right:0;}
 
@@ -37,6 +49,9 @@
 	max-width: 1000px;
 	margin: auto;
 	
+}
+.container.full {
+	width: 100%;
 }
 
 
@@ -62,6 +77,21 @@
 .grid_11,
 .grid_12 {
 	width:100%;
+}
+
+.offset_1,
+.offset_2,
+.offset_3,
+.offset_4,
+.offset_5,
+.offset_6,
+.offset_7,
+.offset_8,
+.offset_9,
+.offset_10,
+.offset_11,
+.offset_12 {
+	margin-left: 0;
 }
 
 }
